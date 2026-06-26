@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-sentence = "object-oriented programming with Python is amazing"
-
-# TODO: print "object-oriented programming with Python"
+str = "Python is an interpreted, interactive, object-oriented programming language that combines remarkable power with very clear syntax"
+str = str[42:81]
+print(str)
