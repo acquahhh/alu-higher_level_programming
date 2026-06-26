@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-# TODO: print "<n> = 0x<n in hex>" for n in 0..98
+for i in range(0, 99):
+    print("{:d} = {:#x}".format(i, i))
