@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-# TODO: print a-z without a newline using one loop and one print
+for i in range(97, 123):
+    print("{:c}".format(i), end="")
