@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-str1 = "Python"
-str2 = "Cool"
+str1 = "Holberton"
+str2 = "School"
 print("Welcome to {} {}!".format(str1, str2))
