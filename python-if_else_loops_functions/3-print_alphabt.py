@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-# TODO: print a-z without q and e, no newline
+for i in range(97, 123):
+    if i != ord('q') and i != ord('e'):
+        print("{:c}".format(i), end="")
